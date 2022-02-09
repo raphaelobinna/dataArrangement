@@ -1,0 +1,48 @@
+.card_form{
+    display: flex;
+    margin: 1%;
+  align-content: flex-start;
+    justify-content: space-between;
+    flex-direction: row;
+    border-bottom: solid 0.5px #EFF1F4;
+    width: 50%;
+   
+}
+
+.card_container {
+    display: flex;
+    align-content: center;
+   
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.card_header {
+    font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 28px;
+}
+
+.card_number {
+    font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 28px;
+
+
+color: #4A4A4A;
+}
+
+.card_period {
+    font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 16px;
+}
+
+.image {
+    height: 50px;
+    width: 50px
+}

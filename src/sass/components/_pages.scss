@@ -1,0 +1,62 @@
+
+
+.container_card {
+    align-content: center;
+    align-self: center;
+    justify-content: center;
+    padding: 5%;
+    border-radius: 5px;
+    width: 50%;
+    margin: auto;
+    border: solid 0.5px #EFF1F4;
+    
+}
+
+.card_section{
+    display: flex;
+   
+    justify-content: center;
+    flex-direction: row;
+  
+
+    div {
+        border: solid 1px black;
+        width: 100px;
+        height: 50px;
+        padding-top: 10px;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+        border-radius: 5px;
+    }
+
+}
+
+.class_active{
+    background-color: lightskyblue;
+    width: 30%;
+ }
+
+.error_section{
+    display: flex;
+    align-content: center;
+    align-self: center;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 3%;
+    flex-direction: row;
+    width: 60%;
+}
+
+.error_text {
+    font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 16px;
+color: #4A4A4A;
+}
+
+.divider {
+    border-left: 1px solid black;
+    height: 50px;
+}
